@@ -88,9 +88,10 @@ body{
 	background: rgba(255,255,255,0.2);
 }
 
-@media only screen and (max-width:1024px){
+
+@media only screen and (max-width:1080px){
 	body{
-		background-size: 1024px;
+		background: #000 url('wallp.jpg') no-repeat center;
 	}
 }
 
@@ -102,6 +103,7 @@ body{
 
 @media only screen and (max-width:640px){
 	body{
+		
 		background-size: 640px;
 		font-size: 12px;
 	}
@@ -113,6 +115,8 @@ body{
 
 @media only screen and (max-width:320px){
 	body{
+		
+		background-size: 320px;
 		font-size: 12px;
 	}
 
