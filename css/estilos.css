@@ -2,7 +2,6 @@ body {
   color: #545454;
   font: 400 16px/1.5 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
-  
 }
 
 html{
@@ -22,6 +21,9 @@ footer {
   background: #1B002E;
   color: #ccc;
   padding: 0 10px 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 footer ul{
@@ -129,20 +131,20 @@ footer .fn {
 
 footer .grouping-locations {
   margin-left: 40px;
-  width: 140px;
+  width: 240px;
   float: left;
 }
 
 footer .grouping-locations li {
   color: #ccc;
   font-size: 13px;
-  font-weight: 700;
-  text-transform: uppercase;
+  
+  
 }
 
 footer .grouping-contact {
   position: absolute;
-  left: 320px;
+  left: 420px;
   margin: 0;
   top: 0;
   width: 140px;
@@ -239,10 +241,12 @@ li {
 	color: #545454;
   	font-size: 14px;
   	text-decoration: none;
+    font-weight: bold;
 }
 
-.banner-header a:hover {
-  	text-decoration: underline;
+.banner-header a:not(.logo):hover {
+  	border-top: 2px solid #666;
+    border-bottom: 2px solid #666;
 }
 
 .banner-header .logo {
@@ -268,6 +272,7 @@ li {
 
 .banner-header {
   background: #fff;
+  font-family: 'Open Sans', sans-serif;
   border-bottom: 1px solid #ccc;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
