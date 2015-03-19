@@ -1,7 +1,7 @@
 
 #fullpage{
 	padding-top: 0px;
-	margin: 200px 300px;
+	margin: 10% 10%;
 }
 
 .banner-header {
@@ -30,9 +30,27 @@ footer{
 
 #fullpage ul li{
 
-	border: 1px solid #CCC;
+	border: 1px solid #FAFAFA;
+	background-color: #662D91;
+	color: #FAFAFA;
 	border-radius: 5px;
-	line-height: 2em;
+	line-height: 1.5em;
 	padding: 10px;
 	margin: 10px;
+}
+
+#fullpage ul li:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.info{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.info h1{
+	font-weight: 700;
+	color: #444;
+  margin-top: 0;
+  font-size: 25px;
 }
