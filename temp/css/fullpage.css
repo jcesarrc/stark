@@ -1,0 +1,38 @@
+
+#fullpage{
+	padding-top: 0px;
+	margin: 200px 300px;
+}
+
+.banner-header {
+  background: #fff;
+  font-family: 'Open Sans', sans-serif;
+  border-bottom: 1px solid #ccc;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+footer{
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+
+#fullpage ul{
+	list-style: none;
+	list-style-image: none;
+	display:inline-block;
+}
+
+#fullpage ul li{
+
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	line-height: 2em;
+	padding: 10px;
+	margin: 10px;
+}

@@ -1,0 +1,476 @@
+body {
+  color: #545454;
+  font: 400 16px/1.5 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+html{
+	font-family: sans-serif;
+}
+
+
+nav ul, nav ol {
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+footer {
+  background: #1B002E;
+  color: #ccc;
+  padding: 0 10px 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer ul{
+  list-style: none;
+  list-style-image: none;
+}
+
+footer nav{
+	padding: 40px 0;
+}
+
+footer nav a {
+  background: transparent;
+  border: 0;
+  display: inline;
+  line-height: 1.5;
+  padding: 0;
+  color: #ccc;
+}
+
+
+footer nav a:hover {
+  text-decoration: underline;
+}
+
+
+footer nav h1 {
+  font-size: 16px;
+  margin: 0;
+	-webkit-margin-before: 0.67em;
+  -webkit-margin-after: 0.67em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  text-transform: uppercase;
+}
+
+footer .nav-primary a{
+	text-decoration: none;
+	font-size: 13px;
+}
+
+
+footer .wrapper {
+  margin: 0 auto;
+  width: 940px;
+}
+
+footer .chevrons {
+  margin: 0;
+  padding: 0;
+}
+
+footer .social-connections {
+  border: 0;
+  margin-bottom: 0;
+}
+
+footer .social-connections li {
+  float: left;
+  margin-left: 10px;
+}
+
+footer .social-connections .icon-twitter {
+  background: url(../img/bgs.png) no-repeat;
+  background-position: 0 0;
+}
+
+footer .social-connections .icon-flickr {
+	background: url(../img/bgs.png) no-repeat;
+  background-position: 0 -394px;
+}
+
+footer .social-connections .icon-linkedin {
+	background: url(../img/bgs.png) no-repeat;
+  background-position: 0 -354px;
+}
+
+footer .social-connections .icon-facebook {
+	background: url(../img/bgs.png) no-repeat;
+  background-position: 0 -434px;
+}
+footer .social-connections p {
+
+font-size: 13px;
+  padding: 20px 10px 20px 0;
+  text-transform: uppercase;
+}
+
+footer .social-connections p, footer .social-connections ul {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+footer .vcard {
+  padding-top: 40px;
+}
+
+footer .vcard .wrapper {
+  position: relative;
+}
+
+footer .fn {
+  width: 140px;
+}
+
+footer .grouping-locations {
+  margin-left: 40px;
+  width: 240px;
+  float: left;
+}
+
+footer .grouping-locations li {
+  color: #ccc;
+  font-size: 13px;
+  
+  
+}
+
+footer .grouping-contact {
+  position: absolute;
+  left: 420px;
+  margin: 0;
+  top: 0;
+  width: 140px;
+}
+
+.grouping {
+  list-style: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+
+}
+
+footer .grouping-contact .button {
+  color: #ccc;
+}
+
+footer .note {
+  left: 480px;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  font-size: 13px;
+  font-style: italic;
+}
+
+footer p[role=contentinfo] {
+  margin: 40px auto 0;
+  padding-left: 240px;
+  width: 780px;
+  font-size: 10px;
+}
+
+.grouping-contact .button:before {
+  left: 0;
+  position: absolute;
+}
+
+.tel-button.bold-button:before {
+  background: url(../img/bgs.png) no-repeat;
+  background-position: 0 -594px;
+}
+
+.fax-button.bold-button:before {
+	background: url(../img/bgs.png) no-repeat;
+  background-position: 0 -809px;
+}
+
+.email-button.bold-button:before {
+	background: url(../img/bgs.png) no-repeat;
+  background-position: 0 -748px;
+}
+
+.tel-button:before, .email-button:before, .fax-button:before {
+  content: "";
+  display: block;
+  height: 10px;
+  position: absolute;
+  width: 13px;
+  left: 12px;
+  
+}
+
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.banner-header .nav .nav-item+.nav-item {
+  margin-left: 10px;
+}
+
+.banner-header .nav .nav-item {
+  float: left;
+}
+
+.banner-header .nav-primary {
+  	
+}
+
+
+.banner-header .nav-primary a {
+  padding: 0 20px;
+  text-transform: uppercase;
+}
+
+.banner-header .nav a {
+  display: inline-block;
+  line-height: 66px;
+}
+
+.banner-header a {
+	color: #545454;
+  	font-size: 14px;
+  	text-decoration: none;
+    font-weight: bold;
+}
+
+.banner-header a:not(.logo):hover {
+  	border-top: 2px solid #666;
+    border-bottom: 2px solid #666;
+}
+
+.banner-header .logo {
+  background-image: url(../img/oie_5212529OSKEQpSq.png);
+  background-repeat: no-repeat;
+  float: left;
+  height: 70px;
+  margin: 0 38px 0 0;
+  width: 200px;
+  display: block;
+  overflow: hidden;
+  text-align: left;
+  text-indent: -999em;
+  background-size: contain;
+}
+
+.banner-header .wrapper {
+  margin: 0 auto;
+  height: 36px;
+  width: 940px;
+}
+
+
+.banner-header {
+  background: #fff;
+  font-family: 'Open Sans', sans-serif;
+  border-bottom: 1px solid #ccc;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  position: fixed;
+  width: 100%;
+}
+
+.row {
+  margin-left: 20px;
+}
+
+.row:before, .row:after {
+  content: "";
+  display: table;
+}
+
+.col-offset-2 {
+  margin-left: 180px;
+}
+
+.col-2 {
+  width: 140px;
+}
+
+.col {
+  float: left;
+}
+
+
+.col-3 {
+  width: 220px;
+}
+
+.col-5 {
+  width: 380px;
+}
+
+
+.grouping-contact .button {
+  background: 0 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  color: #545454;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding-left: 18px;
+  text-align: left;
+  text-shadow: none;
+}
+
+.grouping-contact a{
+	text-decoration: none;
+}
+.grouping-contact a:hover{
+	text-decoration: underline;
+}
+
+.bold-button {
+  background: #1496bb;
+  background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#1bb9d1),color-stop(100%,#0e76a6));
+  background-image: -webkit-linear-gradient(top,#1bb9d1,#0e76a6);
+  background-image: -moz-linear-gradient(top,#1bb9d1,#0e76a6);
+  background-image: -o-linear-gradient(top,#1bb9d1,#0e76a6);
+  background-image: -ms-linear-gradient(top,#1bb9d1,#0e76a6);
+  background-image: linear-gradient(top,#1bb9d1,#0e76a6);
+  -webkit-box-shadow: rgba(0,0,0,.33) 0 1px 0;
+  -moz-box-shadow: rgba(0,0,0,.33) 0 1px 0;
+  box-shadow: rgba(0,0,0,.33) 0 1px 0;
+  color: #fff;
+  text-shadow: 0 -1px 0 #094e89;
+}
+
+.grouping-contact .fax-button {
+  display: block;
+}
+
+.email-button {
+  text-transform: none;
+}
+
+
+.main{
+	height: 600px;
+	background-image: -moz-linear-gradient(45deg, #FAFAFA 25%, transparent 25%), 
+        -moz-linear-gradient(-45deg, #FAFAFA 25%, transparent 25%), 
+        -moz-linear-gradient(45deg, transparent 75%, #FAFAFA 75%), 
+        -moz-linear-gradient(-45deg, transparent 75%, #FAFAFA 75%);
+    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, #FAFAFA), color-stop(.25, transparent)), 
+        -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, #FAFAFA), color-stop(.25, transparent)), 
+        -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.75, transparent), color-stop(.75, #FAFAFA)), 
+        -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.75, transparent), color-stop(.75, #FAFAFA));
+    background-image: -webkit-linear-gradient(45deg, #FAFAFA 25%, transparent 25%), 
+        -webkit-linear-gradient(-45deg, #FAFAFA 25%, transparent 25%), 
+        -webkit-linear-gradient(45deg, transparent 75%, #FAFAFA 75%), 
+        -webkit-linear-gradient(-45deg, transparent 75%, #FAFAFA 75%);
+    background-image: -o-linear-gradient(45deg, #FAFAFA 25%, transparent 25%), 
+        -o-linear-gradient(-45deg, #FAFAFA 25%, transparent 25%), 
+        -o-linear-gradient(45deg, transparent 75%, #FAFAFA 75%), 
+        -o-linear-gradient(-45deg, transparent 75%, #FAFAFA 75%);
+    background-image: linear-gradient(45deg, #FAFAFA 25%, transparent 25%), 
+        linear-gradient(-45deg, #FAFAFA 25%, transparent 25%), 
+        linear-gradient(45deg, transparent 75%, #FAFAFA 75%), 
+        linear-gradient(-45deg, transparent 75%, #FAFAFA 75%);
+    -moz-background-size: 2px 2px;
+    background-size: 4px 4px;
+    -webkit-background-size: 2px 2.1px; /* override value for webkit */
+    background-position: 0 0, 1px 0, 1px -1px, 0px 1px;
+
+}
+
+.social-connections ul {
+  display: table-cell;
+  vertical-align: middle;
+    list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.chevrons {
+overflow: hidden;
+  position: relative;
+  width: 100%;
+  
+  background-image: -moz-linear-gradient(45deg, #666 25%, transparent 25%), 
+        -moz-linear-gradient(-45deg, #666 25%, transparent 25%), 
+        -moz-linear-gradient(45deg, transparent 75%, #666 75%), 
+        -moz-linear-gradient(-45deg, transparent 75%, #666 75%);
+    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, #666), color-stop(.25, transparent)), 
+        -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, #666), color-stop(.25, transparent)), 
+        -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.75, transparent), color-stop(.75, #666)), 
+        -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.75, transparent), color-stop(.75, #666));
+    background-image: -webkit-linear-gradient(45deg, #666 25%, transparent 25%), 
+        -webkit-linear-gradient(-45deg, #666 25%, transparent 25%), 
+        -webkit-linear-gradient(45deg, transparent 75%, #666 75%), 
+        -webkit-linear-gradient(-45deg, transparent 75%, #666 75%);
+    background-image: -o-linear-gradient(45deg, #666 25%, transparent 25%), 
+        -o-linear-gradient(-45deg, #666 25%, transparent 25%), 
+        -o-linear-gradient(45deg, transparent 75%, #666 75%), 
+        -o-linear-gradient(-45deg, transparent 75%, #666 75%);
+    background-image: linear-gradient(45deg, #666 25%, transparent 25%), 
+        linear-gradient(-45deg, #666 25%, transparent 25%), 
+        linear-gradient(45deg, transparent 75%, #666 75%), 
+        linear-gradient(-45deg, transparent 75%, #666 75%);
+    -moz-background-size: 2px 2px;
+    background-size: 4px 4px;
+    -webkit-background-size: 2px 2.1px; /* override value for webkit */
+    background-position: 0 0, 1px 0, 1px -1px, 0px 1px;
+}
+
+
+
+.chevrons:before {
+  background: url(../img/chv-left.png) repeat 100% 0;
+  right: 50%;
+}
+
+
+.chevrons:after {
+  background: url(../img/chv-right.png) repeat 0 0;
+  right: 0;
+}
+
+
+
+.icon {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+
+.ir {
+  display: block;
+  overflow: hidden;
+  text-align: left;
+  text-indent: -999em;
+}
+
+footer .logo{
+	background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  float: left;
+  height: 40px;
+  margin: 0 38px 0 0;
+  width: 120px;
+  display: block;
+  overflow: hidden;
+  text-align: left;
+  text-indent: -999em;
+  background-size: contain;
+}

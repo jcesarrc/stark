@@ -1,0 +1,126 @@
+body{
+	background: #000 url('wallp.jpg') no-repeat left top;
+	color: white;
+	font-size: 16px;
+	margin: 100px;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Gotham, sans-serif;
+	width: 80%;
+}
+
+.logo figure img{
+	display: inline-block;
+	width: 300px;
+	margin-left:-40px;
+	padding-left:0;
+}
+
+.t0{
+	background: #000;
+	position: absolute;
+	top:0; left:0;
+	width: 100%;
+	height: 3em;
+}
+
+.tf{
+	background: #000;
+	position: absolute;
+	bottom:0; left:0;
+	width: 100%;
+	height: 3em;
+}
+
+.t1{
+	font-size: 1.5em;
+	padding: 0 0;
+	margin-top: 1em;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	text-shadow:5px 5px 10px black;
+	font-family: "Ruda", sans-serif
+}
+
+.t20{
+	position: absolute;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+	height: 10%;
+}
+
+.t2{
+	font-size: 3em;
+    font-family: 'Lobster', cursive;
+    color: #EEE;
+}
+
+.t21{
+	font-size: 1em;
+	margin: 10px 10px;
+	display: none;
+}
+
+.t3{
+
+	font-size: 2em;
+	width: 100%;
+	height: 10%;
+	position: absolute;
+    bottom: 10%;
+    margin: auto;
+}
+
+.t3 i{
+	width: 100px;
+	text-align: center;
+}
+
+.t3 a{
+	color: #FFF;
+	text-decoration: none;
+	border: 1px solid white;
+	border-radius: 2px;
+	box-shadow:5px 5px 10px black;
+}
+
+.t3 a:hover{
+	background: rgba(255,255,255,0.2);
+}
+
+
+@media only screen and (max-width:1080px){
+	body{
+		background: #000 url('wallp.jpg') no-repeat center;
+	}
+}
+
+@media only screen and (max-width:768px){
+	body{
+		background-size: 768px;
+	}
+}
+
+@media only screen and (max-width:640px){
+	body{
+		
+		background-size: 640px;
+		font-size: 12px;
+	}
+	.logo figure img{
+		width: 220px;
+	}
+}
+
+
+@media only screen and (max-width:320px){
+	body{
+		
+		background-size: 320px;
+		font-size: 12px;
+	}
+
+	.logo figure img{
+	width: 150px;
+	}
+}
