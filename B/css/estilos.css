@@ -29,9 +29,8 @@ nav ul, nav ol {
 
 footer {
   background: #1B002E;
-  color: #ccc;
-  padding: 0 10px 20px;
-  position: fixed;
+  color: #CCC;
+  padding-bottom: 2px;
   bottom: 0;
   width: 100%;
 }
@@ -68,6 +67,10 @@ footer nav h1 {
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
   text-transform: uppercase;
+}
+
+footer .nav-primary{
+  font-weight: bold;
 }
 
 footer .nav-primary a{
@@ -184,6 +187,7 @@ footer .note {
 footer p[role=contentinfo] {
   margin: 40px auto 0;
   padding-left: 240px;
+  padding-bottom: 10px;
   width: 780px;
   font-size: 10px;
 }
@@ -220,68 +224,89 @@ footer p[role=contentinfo] {
 
 
 li {
-  display: list-item;
+  display: block;
   text-align: -webkit-match-parent;
+
 }
 
 .banner-header .nav .nav-item+.nav-item {
-  margin-left: 10px;
+    
 }
 
 .banner-header .nav .nav-item {
+  padding-right: 20px;
+  margin-right: 40px;
   float: left;
 }
 
 .banner-header .nav-primary {
-  	
+  	text-align: justify;
 }
 
 
+
+
 .banner-header .nav-primary a {
-  padding: 0 20px;
+  padding: 0 0;
   text-transform: uppercase;
 }
 
 .banner-header .nav a {
   display: inline-block;
-  line-height: 66px;
+  line-height: 60px;
 }
 
 .banner-header a {
-	color: #545454;
-  	font-size: 14px;
+	 color: #545454;
+  	font-size: 16px;
   	text-decoration: none;
     font-weight: bold;
+    position: relative;
+    letter-spacing: 0.04em;
+}
+
+
+.banner-header a:not(.logo):after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 3px;
+  background-color: #2F0051;
+  content: "";
+  border-radius: 5px;
+  transition: width 0.2s;
 }
 
 .banner-header a:not(.logo):hover {
-  	border-top: 2px solid #666;
-    border-bottom: 2px solid #666;
+    color: #1B002E;
+}
+
+.banner-header a:not(.logo):hover:after {
+    width: 100%;
 }
 
 .banner-header .logo {
   background-image: url(../img/oie_5212529OSKEQpSq.png);
   background-repeat: no-repeat;
-  float: left;
-  height: 70px;
-  margin: 0 38px 0 0;
-  width: 200px;
+  /*float: left;*/
+  height: 80px;
+  width: 260px;
   display: block;
   overflow: hidden;
   text-align: left;
-  text-indent: -999em;
   background-size: contain;
 }
 
 .banner-header .wrapper {
-  margin: 0 auto;
-  height: 36px;
-  width: 940px;
+  margin: 0 5%;
+  width: 100%;
 }
 
 
 .banner-header {
-  background: #fff;
+  background: rgba(255,255,255,1);
   font-family: 'Open Sans', sans-serif;
   border-bottom: 1px solid #ccc;
   -webkit-box-shadow: none;
@@ -374,7 +399,7 @@ li {
 
 
 .main{
-	height: 600px;
+	height: 800px;
 	background-image: -moz-linear-gradient(45deg, #FAFAFA 25%, transparent 25%), 
         -moz-linear-gradient(-45deg, #FAFAFA 25%, transparent 25%), 
         -moz-linear-gradient(45deg, transparent 75%, #FAFAFA 75%), 
@@ -399,6 +424,7 @@ li {
     background-size: 4px 4px;
     -webkit-background-size: 2px 2.1px; /* override value for webkit */
     background-position: 0 0, 1px 0, 1px -1px, 0px 1px;
+    background: url(../img/grey.png);
 
 }
 
@@ -483,4 +509,8 @@ footer .logo{
   text-align: left;
   text-indent: -999em;
   background-size: contain;
+}
+
+#miniwrapper{
+  background-color: #2F0051;
 }
